@@ -38,4 +38,5 @@ Generally, you’ll use rebase when there are changes in an upstream branch (lik
 ### git squash : 
 It is used to combine multiple commits into one. It is mostly used to combine multiple multiple branches. 
 By default, a pull request (PR) will be a merge commit, so after the PR is merged, the entire history of the working branch will be merged in, plus an additional merge commit. you can set your repository to “squash and merge” by default, meaning merged PRs will result in only a single commit each, instead of bringing over all the commits from the working branch to keep the merge history clean. 
-squash commits loses information. 
+squash commits loses information and causes to rework as a bug. 
+
