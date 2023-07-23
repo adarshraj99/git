@@ -15,3 +15,6 @@ Can show high level view of changes.
 
 ### git show <commit> filepath : 
 This gives specific file line changes for your file. 
+
+### git merge vs git rebase: 
+When there are changes in main branch and you want sam in your branch, you can chk 
